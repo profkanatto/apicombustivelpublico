@@ -1,0 +1,14 @@
+/* Definições iniciais do Banco de Dados MongoDB*/
+
+
+use combustivel
+use grupo
+use cliente
+use usuario
+
+db.grupo.insertMany([
+ { categoria: "USUARIO" },
+ { categoria: "ADMIN" },
+])
+
+
